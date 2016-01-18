@@ -35,6 +35,8 @@ public class BaseConvert {
         System.out.print("Enter the base to convert to: "); 
         newBase = scan.nextInt();
         
+        scan.close();
+        
         maxNumber = (newBase * newBase * newBase * newBase) -1;
         System.out.println("maxNumber = " + maxNumber); 
         

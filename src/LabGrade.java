@@ -47,7 +47,7 @@ public class LabGrade {
         System.out.print("What was the weight for the in class work in decimal form? "); 
         inWeight = scan.nextDouble();         
         System.out.println();
-        
+        scan.close();
 
         // Calculate the average for the out of class work 
         outClassAvg = 100.0 * (preLabPts + postLabPts) / (preLabMax + postLabMax);

@@ -11,6 +11,11 @@ import java.awt.*;
 public class Shapes extends JApplet{
 
     
+    /**
+     * 
+     */
+    private static final long serialVersionUID = -8050901505528319901L;
+
     public Shapes(){
         getContentPane().setBackground(Color.black);
     }
@@ -18,9 +23,9 @@ public class Shapes extends JApplet{
     public void paint(Graphics page){
         super.paint(page);
         // Declare size constants 
-        final int MAX_SIZE = 300; 
-        final int PAGE_WIDTH = 500; 
-        final int PAGE_HEIGHT = 350;
+        //final int MAX_SIZE = 300; 
+        //final int PAGE_WIDTH = 500; 
+        //final int PAGE_HEIGHT = 350;
         // Declare variables 
         int x;
         int y;

@@ -26,6 +26,7 @@ public class Circle {
         
         Scanner sc = new Scanner(System.in);
         radius = sc.nextInt();
+        sc.close();
         
         double area = PI * radius * radius;
         double circumfrance = 2 * PI * radius;
